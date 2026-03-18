@@ -21,7 +21,7 @@ This repository contains MATLAB scripts for colocalization analysis of dual-colo
 3. **Run the main script** with the example images:
    ```matlab
    cd scripts
-   main_colocalization('../example_data/Sample data of AF488 channel.png', '../example_data/Sample data of AF647 channel.png')
+   main_colocalization('../example_data/Sample data of AF488 channel.png', '../example_data/Sample data of AF647 channel.png')```
 4. **Expected output**
    A figure showing the original fluorescence image with detected colocalized spots numbered in obvious color.
 
@@ -36,21 +36,21 @@ The analysis follows these steps:
 7. Visualization: Overlay numbered bounding boxes on the original image.
 
 ## 📥 Input/Output
-Input
-  Two fluorescence images from the same field of view (AF488 and AF647 channels). Supported formats: PNG, TIFF, JPEG.
-  Images can be grayscale or RGB (will be converted to grayscale automatically).
-Output
-  Console report with spot counts.
-  Figure showing original fluorescence image with numbered colocalized spots (saved automatically in results/ folder if specified).
+1. Input
+- Two fluorescence images from the same field of view (AF488 and AF647 channels). Supported formats: PNG, TIFF, JPEG.
+- Images can be grayscale or RGB (will be converted to grayscale automatically).
+2. Output
+- Console report with spot counts.
+- Figure showing original fluorescence image with numbered colocalized spots (saved automatically in results/ folder if specified).
 
 ## 📝 Citation
-If you use this code in your research, please cite:
+- If you use this code in your research, please cite:
 
 Xiaoshuang Zhao, et al. "Fluorescence Encoding Technology Based Tetrahedral Nano-string for Logic Identification of Breast Cancer Cells." (under review, 2026).
 
-and this repository:
+- and this repository:
 
-Xiaoshuang Zhao. (2026). MATLAB Colocalization Analysis for Fluorescence Images (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.xxxxxx
+Xiaoshuang Zhao. (2026). MATLAB-based multiplexed colocalization analysis scripts for TanTNS (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.xxxxxx
 
 Note: A permanent DOI will be added upon manuscript acceptance.
 
