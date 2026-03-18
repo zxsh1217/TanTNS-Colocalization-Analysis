@@ -23,7 +23,7 @@ This repository contains MATLAB scripts for colocalization analysis of dual-colo
    cd scripts
    main_colocalization('../example_data/Sample data of AF488 channel.png', '../example_data/Sample data of AF647 channel.png')
 4. Expected output:
-   A figure will show the original fluorescence image with detected colocalized spots numbered in obvious color.
+   A figure showing the original fluorescence image with detected colocalized spots numbered in obvious color.
 
 ## 🔧 How It Works
 The analysis follows these steps:
@@ -36,7 +36,7 @@ The analysis follows these steps:
 7. Visualization: Overlay numbered bounding boxes on the original image.
 
 ## 📥 Input/Output
-Input: 
+Input
   Two fluorescence images from the same field of view (AF488 and AF647 channels). Supported formats: PNG, TIFF, JPEG.
   Images can be grayscale or RGB (will be converted to grayscale automatically).
 Output
@@ -46,7 +46,7 @@ Output
 ## 📝 Citation
 If you use this code in your research, please cite:
 
-Xiaoshuang Zhao, et al. "Fluorescence Encoding Technology Based Tetrahedral Nano-string for Logic Identification of Breast Cancer Cells]." (under review, 2026).
+Xiaoshuang Zhao, et al. "Fluorescence Encoding Technology Based Tetrahedral Nano-string for Logic Identification of Breast Cancer Cells." (under review, 2026).
 
 and this repository:
 
