@@ -20,7 +20,7 @@ This repository contains MATLAB scripts for colocalization analysis of dual-colo
 3. **Run the main script** with the example images:
    ```matlab
    cd scripts
-   main_colocalization('../example_data/488_channel.png', '../example_data/647_channel.png')
+   main_colocalization('../example_data/Sample data of AF488 channel.png', '../example_data/Sample data of AF647 channel.png')
 4. Expected output:
 Console will display:
 AF488 spots: XXX
