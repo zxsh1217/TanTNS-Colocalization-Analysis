@@ -14,6 +14,7 @@ This repository contains MATLAB scripts for colocalization analysis of dual-colo
 │   └── Sample data of AF647 channel.png              # AF647 通道图像
 └── README.md                        # 本说明文件
 
+
 ## 🚀 Quick Start
 1. **Clone or download** this repository to your local machine.
 2. **Open MATLAB** and navigate to the repository folder.
@@ -22,11 +23,7 @@ This repository contains MATLAB scripts for colocalization analysis of dual-colo
    cd scripts
    main_colocalization('../example_data/Sample data of AF488 channel.png', '../example_data/Sample data of AF647 channel.png')
 4. Expected output:
-Console will display:
-AF488 spots: XXX
-AF647 spots: XXX
-Colocalized spots: XXX
-A figure will appear showing the original AF488 image with detected colocalized spots numbered in red.
+   A figure will show the original fluorescence image with detected colocalized spots numbered in obvious color.
 
 ## 🔧 How It Works
 The analysis follows these steps:
@@ -39,21 +36,21 @@ The analysis follows these steps:
 7. Visualization: Overlay numbered bounding boxes on the original image.
 
 ## 📥 Input/Output
-Input
- Two fluorescence images from the same field of view (AF488 and AF647 channels). Supported formats: PNG, TIFF, JPEG.
- Images can be grayscale or RGB (will be converted to grayscale automatically).
+Input: 
+  Two fluorescence images from the same field of view (AF488 and AF647 channels). Supported formats: PNG, TIFF, JPEG.
+  Images can be grayscale or RGB (will be converted to grayscale automatically).
 Output
- Console report with spot counts.
- Figure showing original AF488 image with numbered colocalized spots (saved automatically in results/ folder if specified).
+  Console report with spot counts.
+  Figure showing original fluorescence image with numbered colocalized spots (saved automatically in results/ folder if specified).
 
 ## 📝 Citation
 If you use this code in your research, please cite:
 
-[Your Names]. "[Your Manuscript Title]." (under review, 2026).
+Xiaoshuang Zhao, et al. "Fluorescence Encoding Technology Based Tetrahedral Nano-string for Logic Identification of Breast Cancer Cells]." (under review, 2026).
 
 and this repository:
 
-Your Name. (2026). MATLAB Colocalization Analysis for Fluorescence Images (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.xxxxxx
+Xiaoshuang Zhao. (2026). MATLAB Colocalization Analysis for Fluorescence Images (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.xxxxxx
 
 Note: A permanent DOI will be added upon manuscript acceptance.
 
