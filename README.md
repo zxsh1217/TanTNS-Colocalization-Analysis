@@ -50,7 +50,7 @@ Xiaoshuang Zhao, et al. "Fluorescence Encoding Technology Based Tetrahedral Nano
 
 - and this repository:
 
-Xiaoshuang Zhao. (2026). MATLAB-based multiplexed colocalization analysis scripts for TanTNS (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.xxxxxx
+Xiaoshuang Zhao. (2026). MATLAB-based multiplexed colocalization analysis scripts for TanTNS (v1.0.0). Zenodo. https://doi.org/10.5072/zenodo.471765
 
 Note: A permanent DOI will be added upon manuscript acceptance.
 
