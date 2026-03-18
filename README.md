@@ -22,7 +22,7 @@ This repository contains MATLAB scripts for colocalization analysis of dual-colo
    ```matlab
    cd scripts
    main_colocalization('../example_data/Sample data of AF488 channel.png', '../example_data/Sample data of AF647 channel.png')
-4. Expected output:
+4. **Expected output**
    A figure showing the original fluorescence image with detected colocalized spots numbered in obvious color.
 
 ## 🔧 How It Works
